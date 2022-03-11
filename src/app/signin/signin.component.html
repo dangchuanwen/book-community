@@ -1,0 +1,21 @@
+<div fxLayout="column" fxLayoutAlign=" center">
+  <h1 class="title">Sign In</h1>
+  <div class="form-text register-text">
+    <a class="btn btn-link" routerLink="/signup">Register new account</a>
+  </div>
+  <div class="mb-3 form-item">
+    <label for="exampleInputEmail1" class="form-label">Account</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div class="form-text">Enter your account</div>
+  </div>
+  <div class="mb-3 form-item">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+    <div class="form-text">Enter your password</div>
+  </div>
+  <button type="button"
+          class="btn btn-primary"
+          (click)="login()">
+    Submit
+  </button>
+</div>
